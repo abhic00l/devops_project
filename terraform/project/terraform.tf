@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket         = "dev-infra-app-bucket-abhishek-dev-2026"
+    bucket         = "${var.environment}-${var.dynamodb_name}"
     key            = "terraform/state/terraform.tfstate"
     region         = "us-east-1"
     dynamodb_table = "dev-infra_project"
