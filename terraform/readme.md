@@ -14,10 +14,6 @@ Infrastructure as Code using Terraform to deploy AWS resources.
 - AWS CLI configured
 - AWS account
 
-## Usage
-# Clone repo
-git clone https://github.com/yourusername/terra-infra-project
-
 # Initialize
 terraform init
 
